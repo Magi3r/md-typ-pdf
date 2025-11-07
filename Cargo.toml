@@ -1,0 +1,15 @@
+[package]
+name = "md-typ-pdf"
+version = "0.1.0"
+edition = "2024"
+authors = ["Magi3r"]
+license = "MIT OR Apache-2.0"
+description = "Convert markdown files to PDF using typst"
+readme = "README.md"
+repository = "https://github.com/Magi3r/md-typ-pdf"
+categories = ["command-line-utilities"]
+keywords = ["markdown", "pdf", "typst", "converter"]
+
+[dependencies]
+clap = { version = "4.5.51", features = ["derive"] }
+duct = "1.1.0"
